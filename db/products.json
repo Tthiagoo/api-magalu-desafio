@@ -1,0 +1,241 @@
+[
+  {
+    "id": "1",
+    "idRestaurant": "1",
+    "name": "Temaki",
+    "description": "bolinho de arroz com pele de peixe",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Califórnia",
+        "description": "Kani, pepino e maçã ou manga",
+        "price": 13.99,
+        "oldPrice": 17.0,
+        "promo": true
+      },
+      {
+        "id": "2",
+        "name": "Mix",
+        "description": "arroz temperado, salmão, atum, camarão e kani",
+        "price": 13.99,
+        "promo": false,
+        "from": true
+      },
+      {
+        "id": "10",
+        "name": "Filadélfia",
+        "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+        "price": 13.99,
+        "promo": false
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "idRestaurant": "1",
+    "name": "Niguiri",
+    "description": "bolinho de arroz com pele de peixe",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Califórnia",
+        "description": "Kani, pepino e maçã ou manga",
+        "price": 13.99,
+        "oldPrice": 17.0,
+        "promo": true
+      },
+      {
+        "id": "2",
+        "name": "Mix",
+        "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese...",
+        "price": 13.99,
+        "promo": false,
+        "from": true
+      },
+      {
+        "id": "3",
+        "name": "Filadélfia",
+        "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+        "price": 13.99,
+        "promo": false
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "idRestaurant": "2",
+    "name": "Sanduiches",
+    "description": "Escolha seu sanduiche e montamos pra você",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Frango",
+        "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Frango Grelhado",
+        "price": 13.99,
+        "oldPrice": 17.0,
+        "promo": true
+      },
+      {
+        "id": "2",
+        "name": "Frango Defumado",
+        "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Frango Defumado com Cream Cheese.",
+        "price": 13.99,
+        "promo": false,
+        "from": true
+      },
+      {
+        "id": "3",
+        "name": "Steak Churrasco",
+        "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Steak de Churrasco, cheio de suculência e sabor",
+        "price": 13.99,
+        "promo": false
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "idRestaurant": "2",
+    "name": "Bebidas",
+    "description": "Escolha seu sanduiche e montamos pra você",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Agua",
+        "description": "",
+        "price": 13.99,
+        "oldPrice": 17.0,
+        "promo": true
+      },
+      {
+        "id": "2",
+        "name": "Refrigerante",
+        "description": "",
+        "price": 13.99,
+        "promo": false,
+        "from": true
+      },
+      {
+        "id": "3",
+        "name": "Suco",
+        "description": "",
+        "price": 13.99,
+        "promo": false
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "idRestaurant": "3",
+    "name": "Whopper",
+    "description": "O clássico Whopper do Burger King",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Whopper Jr.",
+        "description": "Versão menor do Whopper",
+        "price": 15.99,
+        "promo": false
+      },
+      {
+        "id": "2",
+        "name": "Whopper Duplo",
+        "description": "Whopper com dois hambúrgueres",
+        "price": 22.99,
+        "promo": true,
+        "oldPrice": 25.99
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "idRestaurant": "4",
+    "name": "Big Mac",
+    "description": "O famoso Big Mac do McDonald's",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Big Mac",
+        "description": "Sanduíche tradicional",
+        "price": 18.99,
+        "promo": false
+      },
+      {
+        "id": "2",
+        "name": "Big Mac Duplo",
+        "description": "Big Mac com dobro de carne",
+        "price": 24.99,
+        "promo": true,
+        "oldPrice": 27.99
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "idRestaurant": "5",
+    "name": "Pizza Pepperoni",
+    "description": "Pizza de pepperoni da Pizza Hut",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Média",
+        "description": "Tamanho médio",
+        "price": 39.99,
+        "promo": false
+      },
+      {
+        "id": "2",
+        "name": "Grande",
+        "description": "Tamanho grande",
+        "price": 49.99,
+        "promo": true,
+        "oldPrice": 59.99
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "idRestaurant": "6",
+    "name": "Pizza de Frango com Catupiry",
+    "description": "Pizza tradicional Domino's",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Média",
+        "description": "Tamanho médio",
+        "price": 37.99,
+        "promo": false
+      },
+      {
+        "id": "2",
+        "name": "Grande",
+        "description": "Tamanho grande",
+        "price": 47.99,
+        "promo": true,
+        "oldPrice": 55.99
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "idRestaurant": "7",
+    "name": "Yakissoba",
+    "description": "Yakissoba tradicional China in Box",
+    "variants": [
+      {
+        "id": "1",
+        "name": "Carne",
+        "description": "Yakissoba de carne",
+        "price": 29.99,
+        "promo": false
+      },
+      {
+        "id": "2",
+        "name": "Frango",
+        "description": "Yakissoba de frango",
+        "price": 27.99,
+        "promo": true,
+        "oldPrice": 32.99
+      }
+    ]
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "id": "1",
+    "productId": "1",
+    "idRestaurant": "1",
+    "imageRestaurant": "/images-restaurants/matsuri.png",
+    "nameRestaurant": "Matsuri Concept",
+    "name": "Temaki Califórnia",
+    "image": "/temaki-california.jpg",
+    "description": "bolinho de arroz com pele de peixe, com Kani, pepino e maçã ou manga ",
+    "price": 19.9,
+    "customization": [
+      {
+        "id": "201",
+        "title": "qual o tamanho?",
+        "description": "escolhe um",
+        "type": "single",
+        "required": true,
+        "options": [
+          {
+            "label": "médio",
+            "price": 19.9,
+            "hasPromotion": true,
+            "oldPrice": 17.5,
+            "id": "tamanho_1"
+          },
+          {
+            "label": "grande",
+            "price": 28.9,
+            "id": "tamanho_2"
+          }
+        ]
+      },
+      {
+        "id": "202",
+        "title": "acompanhamentos",
+        "description": "escolha quantos quiser",
+        "type": "multi",
+        "required": false,
+        "min": 1,
+        "max": 2,
+        "options": [
+          { "label": "shoyu", "price": 0, "id": "acomp_1" },
+          { "label": "gengibre", "price": 0, "id": "acomp_2" },
+          { "label": "wasabi", "price": 0, "id": "acomp_3" }
+        ]
+      },
+      {
+        "id": "203",
+        "title": "vai querer bebida?",
+        "type": "quantity",
+        "options": [
+          { "label": "coca-cola", "price": 5.0, "id": "bebida_1" },
+          { "label": "fanta laranja", "price": 5.0, "id": "bebida_2" },
+          { "label": "guaraná antarctica", "price": 5.0, "id": "bebida_3" },
+          { "label": "suco prats laranja", "price": 6.0, "id": "bebida_4" },
+          { "label": "água sem gás", "price": 3.0, "id": "bebida_5" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "productId": "1",
+    "idRestaurant": "1",
+    "imageRestaurant": "/images-restaurants/matsuri.png",
+    "nameRestaurant": "Matsuri Concept",
+    "name": "Temaki Mix",
+    "image": "/temaki-mix.jpg",
+    "price": 19.9,
+    "description": "arroz temperado, salmão, atum, camarão e kani, combinado com cebolinha, gergelim e um toque especial de molho. ",
+    "customization": [
+      {
+        "id": "201",
+        "title": "qual o tamanho?",
+        "description": "escolhe um",
+        "type": "single",
+        "required": true,
+        "options": [
+          {
+            "label": "médio",
+            "price": 19.9,
+            "hasPromotion": true,
+            "oldPrice": 17.5,
+            "id": "tamanho_1"
+          },
+          {
+            "label": "grande",
+            "price": 28.9,
+            "id": "tamanho_2"
+          }
+        ]
+      },
+      {
+        "id": "202",
+        "title": "acompanhamentos",
+        "description": "escolha quantos quiser",
+        "type": "multi",
+        "required": false,
+        "min": 1,
+        "max": 2,
+        "options": [
+          { "label": "shoyu", "price": 0, "id": "acomp_1" },
+          { "label": "gengibre", "price": 0, "id": "acomp_2" },
+          { "label": "wasabi", "price": 0, "id": "acomp_3" }
+        ]
+      },
+      {
+        "id": "203",
+        "title": "vai querer bebida?",
+        "type": "quantity",
+        "options": [
+          { "label": "coca-cola", "price": 5.0, "id": "bebida_1" },
+          { "label": "fanta laranja", "price": 5.0, "id": "bebida_2" },
+          { "label": "guaraná antarctica", "price": 5.0, "id": "bebida_3" },
+          { "label": "suco prats laranja", "price": 6.0, "id": "bebida_4" },
+          { "label": "água sem gás", "price": 3.0, "id": "bebida_5" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "productId": "1",
+    "idRestaurant": "1",
+    "imageRestaurant": "/images-restaurants/matsuri.png",
+    "price": 19.9,
+    "nameRestaurant": "Matsuri Concept",
+    "name": "Temaki Filadélfia",
+    "image": "/temaki-filadelfia.jpg",
+    "description": "Cone de alga crocante recheado com arroz temperado, salmão fresco, cream cheese cremoso e cebolinha",
+    "customization": [
+      {
+        "id": "201",
+        "title": "qual o tamanho?",
+        "description": "escolhe um",
+        "type": "single",
+        "required": true,
+        "options": [
+          {
+            "label": "médio",
+            "price": 19.9,
+            "hasPromotion": true,
+            "oldPrice": 17.5,
+            "id": "tamanho_1"
+          },
+          {
+            "label": "grande",
+            "price": 28.9,
+            "id": "tamanho_2"
+          }
+        ]
+      },
+      {
+        "id": "202",
+        "title": "acompanhamentos",
+        "description": "escolha quantos quiser",
+        "type": "multi",
+        "required": false,
+        "min": 1,
+        "max": 2,
+        "options": [
+          { "label": "shoyu", "price": 0, "id": "acomp_1" },
+          { "label": "gengibre", "price": 0, "id": "acomp_2" },
+          { "label": "wasabi", "price": 0, "id": "acomp_3" }
+        ]
+      },
+      {
+        "id": "203",
+        "title": "vai querer bebida?",
+        "type": "quantity",
+        "options": [
+          { "label": "coca-cola", "price": 5.0, "id": "bebida_1" },
+          { "label": "fanta laranja", "price": 5.0, "id": "bebida_2" },
+          { "label": "guaraná antarctica", "price": 5.0, "id": "bebida_3" },
+          { "label": "suco prats laranja", "price": 6.0, "id": "bebida_4" },
+          { "label": "água sem gás", "price": 3.0, "id": "bebida_5" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "productId": "5",
+    "name": "Whopper Burger King",
+    "image": "/pizza-frango-catupiry.png",
+    "description": "O clássico Whopper do Burger King",
+    "price": 22.99,
+    "customization": [
+      {
+        "id": "302",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 3,
+        "options": [
+          { "label": "Bacon", "price": 3.0, "id": "add_bacon" },
+          { "label": "Queijo extra", "price": 2.0, "id": "add_queijo" },
+          { "label": "Cebola crispy", "price": 2.5, "id": "add_cebola" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "productId": "6",
+    "name": "Big Mac McDonald's",
+    "image": "/pizza-frango-catupiry.png",
+    "price": 24.99,
+    "description": "O famoso Big Mac do McDonald's",
+    "customization": [
+      {
+        "id": "402",
+        "title": "Molhos extras",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Molho especial", "price": 1.5, "id": "molho_especial" },
+          { "label": "Barbecue", "price": 1.5, "id": "molho_bbq" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "productId": "7",
+    "name": "Pizza Pepperoni Pizza Hut",
+    "image": "/pizza-pepperoni.png",
+    "description": "Pizza de pepperoni da Pizza Hut",
+    "price": 39.99,
+    "customization": [
+      {
+        "id": "501",
+        "title": "Tamanho",
+        "type": "single",
+        "required": true,
+        "options": [
+          { "label": "Média", "price": 39.99, "id": "1" },
+          {
+            "label": "Grande",
+            "price": 49.99,
+            "id": "2",
+            "hasPromotion": true,
+            "oldPrice": 59.99
+          }
+        ]
+      },
+      {
+        "id": "502",
+        "title": "Borda recheada?",
+        "type": "single",
+        "required": false,
+        "options": [
+          { "label": "Sim", "price": 7.0, "id": "borda_sim" },
+          { "label": "Não", "price": 0, "id": "borda_nao" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "productId": "8",
+    "name": "Pizza Frango com Catupiry Domino's",
+    "image": "/pizza-frango-catupiry.png",
+    "description": "Pizza tradicional Domino's",
+    "price": 37.99,
+    "customization": [
+      {
+        "id": "601",
+        "title": "Tamanho",
+        "type": "single",
+        "required": true,
+        "options": [
+          { "label": "Média", "price": 37.99, "id": "1" },
+          {
+            "label": "Grande",
+            "price": 47.99,
+            "id": "2",
+            "hasPromotion": true,
+            "oldPrice": 55.99
+          }
+        ]
+      },
+      {
+        "id": "602",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Catupiry extra", "price": 4.0, "id": "catupiry_extra" },
+          { "label": "Bacon", "price": 3.0, "id": "bacon" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "productId": "9",
+    "name": "Yakissoba China in Box",
+    "image": "/yakissoba.png",
+    "description": "Yakissoba tradicional China in Box",
+    "price": 29.99,
+    "customization": [
+      {
+        "id": "701",
+        "title": "Tipo de carne",
+        "type": "single",
+        "required": true,
+        "options": [
+          { "label": "Carne", "price": 29.99, "id": "1" },
+          {
+            "label": "Frango",
+            "price": 27.99,
+            "id": "2",
+            "hasPromotion": true,
+            "oldPrice": 32.99
+          }
+        ]
+      },
+      {
+        "id": "702",
+        "title": "Acompanhamentos",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Legumes", "price": 0, "id": "legumes" },
+          { "label": "Shoyu extra", "price": 1.0, "id": "shoyu_extra" }
+        ]
+      }
+    ]
+  }
+]
