@@ -335,5 +335,74 @@
         ]
       }
     ]
+  },
+  {
+    "id": "7",
+    "productId": "3",
+    "name": "Sanduíche Frango",
+    "image": "/sanduiche-frango.png",
+    "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Frango Grelhado",
+    "price": 13.99,
+    "customization": [
+      {
+        "id": "301",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 3,
+        "options": [
+          { "label": "Bacon", "price": 3.0, "id": "add_bacon" },
+          { "label": "Queijo extra", "price": 2.0, "id": "add_queijo" },
+          { "label": "Cebola crispy", "price": 2.5, "id": "add_cebola" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "productId": "3",
+    "name": "Sanduíche Frango Defumado",
+    "image": "/sanduiche-frango-defumado.png",
+    "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Frango Defumado com Cream Cheese.",
+    "price": 13.99,
+    "customization": [
+      {
+        "id": "302",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 3,
+        "options": [
+          { "label": "Bacon", "price": 3.0, "id": "add_bacon" },
+          { "label": "Queijo extra", "price": 2.0, "id": "add_queijo" },
+          { "label": "Cebola crispy", "price": 2.5, "id": "add_cebola" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "productId": "3",
+    "name": "Sanduíche Steak Churrasco",
+    "image": "/sanduiche-steak-churrasco.png",
+    "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Steak de Churrasco, cheio de suculência e sabor",
+    "price": 13.99,
+    "customization": [
+      {
+        "id": "303",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 3,
+        "options": [
+          { "label": "Bacon", "price": 3.0, "id": "add_bacon" },
+          { "label": "Queijo extra", "price": 2.0, "id": "add_queijo" },
+          { "label": "Cebola crispy", "price": 2.5, "id": "add_cebola" }
+        ]
+      }
+    ]
   }
 ]
