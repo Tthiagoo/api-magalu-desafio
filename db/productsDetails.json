@@ -120,7 +120,7 @@
     ]
   },
   {
-    "id": "10",
+    "id": "3",
     "productId": "1",
     "idRestaurant": "1",
     "imageRestaurant": "/images-restaurants/matsuri.png",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "14",
     "productId": "5",
     "name": "Whopper Burger King",
     "image": "/pizza-frango-catupiry.png",
@@ -203,7 +203,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": "16",
     "productId": "6",
     "name": "Big Mac McDonald's",
     "image": "/pizza-frango-catupiry.png",
@@ -225,12 +225,12 @@
     ]
   },
   {
-    "id": "5",
+    "id": "18",
     "productId": "7",
     "name": "Pizza Pepperoni Pizza Hut",
     "image": "/pizza-pepperoni.png",
     "description": "Pizza de pepperoni da Pizza Hut",
-    "price": 39.99,
+    "price": 49.99,
     "customization": [
       {
         "id": "501",
@@ -261,12 +261,12 @@
     ]
   },
   {
-    "id": "6",
+    "id": "20",
     "productId": "8",
     "name": "Pizza Frango com Catupiry Domino's",
     "image": "/pizza-frango-catupiry.png",
     "description": "Pizza tradicional Domino's",
-    "price": 37.99,
+    "price": 47.99,
     "customization": [
       {
         "id": "601",
@@ -299,12 +299,12 @@
     ]
   },
   {
-    "id": "7",
+    "id": "22",
     "productId": "9",
     "name": "Yakissoba China in Box",
     "image": "/yakissoba.png",
     "description": "Yakissoba tradicional China in Box",
-    "price": 29.99,
+    "price": 27.99,
     "customization": [
       {
         "id": "701",
