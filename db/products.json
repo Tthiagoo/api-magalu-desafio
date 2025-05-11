@@ -92,37 +92,7 @@
       }
     ]
   },
-  {
-    "id": "4",
-    "idRestaurant": "2",
-    "name": "Bebidas",
-    "description": "Escolha seu sanduiche e montamos pra você",
-    "variants": [
-      {
-        "id": "10",
-        "name": "Agua",
-        "description": "",
-        "price": 13.99,
-        "oldPrice": 17.0,
-        "promo": true
-      },
-      {
-        "id": "11",
-        "name": "Refrigerante",
-        "description": "",
-        "price": 13.99,
-        "promo": false,
-        "from": true
-      },
-      {
-        "id": "12",
-        "name": "Suco",
-        "description": "",
-        "price": 13.99,
-        "promo": false
-      }
-    ]
-  },
+
   {
     "id": "5",
     "idRestaurant": "3",
