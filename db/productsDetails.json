@@ -434,7 +434,7 @@
     "imageRestaurant": "/images-restaurants/pizzahut.png",
     "nameRestaurant": "Pizza Hut",
     "name": "Pizza Pepperoni Defumada",
-    "image": "/pizza-pepperoni.png",
+    "image": "/pizza-pepperoni.jpg",
     "description": "Molho de tomate rústico, mussarela cremosa e fatias generosas de pepperoni defumado",
     "price": 29.99,
     "customization": [
@@ -473,7 +473,7 @@
     "imageRestaurant": "/images-restaurants/pizzahut.png",
     "nameRestaurant": "Pizza Hut",
     "name": "Pizza Pepperoni Vegetariana",
-    "image": "/pizza-pepperoni.png",
+    "image": "/pizza-pepperoni.jpg",
     "description": "Molho de tomate fresco, mussarela derretida e uma seleção de legumes grelhados: pimentões, cebola roxa, tomate-cereja, champignon e abobrinha. Finalizada com orégano e um fio de azeite extra virgem.",
     "price": 39.99,
     "customization": [
@@ -511,9 +511,9 @@
     "idRestaurant": "6",
     "imageRestaurant": "/images-restaurants/dominos.png",
     "nameRestaurant": "Domino's",
-    "name": "Pizza Frango com Catupiry Média Domino's",
-    "image": "/pizza-frango-catupiry.png",
-    "description": "Tamanho médio",
+    "name": "Pizza Frango com Catupiry Tradicional",
+    "image": "/pizza-frango-catupiry.jpg",
+    "description": "Molho de tomate, frango desfiado temperado, Catupiry cremoso e um toque de orégano. Simples e irresistível.",
     "price": 37.99,
     "customization": [
       {
@@ -552,10 +552,10 @@
     "idRestaurant": "6",
     "imageRestaurant": "/images-restaurants/dominos.png",
     "nameRestaurant": "Domino's",
-    "name": "Pizza Frango com Catupiry Grande Domino's",
-    "image": "/pizza-frango-catupiry.png",
-    "description": "Tamanho grande",
-    "price": 47.99,
+    "name": "Pizza Frango com Catupiry com milho",
+    "image": "/pizza-frango-catupiry.jpg",
+    "description": "A clássica com um toque especial: frango desfiado, Catupiry original e grãos de milho doce para equilibrar o sabor.",
+    "price": 37.99,
     "customization": [
       {
         "id": "601",
@@ -594,23 +594,23 @@
     "imageRestaurant": "/images-restaurants/chinainbox.png",
     "nameRestaurant": "China in Box",
     "name": "Yakissoba Carne China in Box",
-    "image": "/yakissoba.png",
+    "image": "/yakissoba-carne.png",
     "description": "Yakissoba de carne",
     "price": 29.99,
     "customization": [
       {
         "id": "701",
-        "title": "Tipo de carne",
+        "title": "Tamanho",
         "type": "single",
         "required": true,
         "options": [
-          { "label": "Carne", "price": 29.99, "id": "1" },
+          { "label": "Medio", "price": 29.99, "id": "1" },
           {
-            "label": "Frango",
-            "price": 27.99,
+            "label": "Grande",
+            "price": 37.99,
             "id": "2",
             "hasPromotion": true,
-            "oldPrice": 32.99
+            "oldPrice": 47.99
           }
         ]
       },
@@ -635,23 +635,23 @@
     "imageRestaurant": "/images-restaurants/chinainbox.png",
     "nameRestaurant": "China in Box",
     "name": "Yakissoba Frango China in Box",
-    "image": "/yakissoba.png",
+    "image": "/yakissoba-frango.png",
     "description": "Yakissoba de frango",
-    "price": 27.99,
+    "price": 29.99,
     "customization": [
       {
         "id": "701",
-        "title": "Tipo de carne",
+        "title": "Tamanho",
         "type": "single",
         "required": true,
         "options": [
-          { "label": "Carne", "price": 29.99, "id": "1" },
+          { "label": "Medio", "price": 29.99, "id": "1" },
           {
-            "label": "Frango",
-            "price": 27.99,
+            "label": "Grande",
+            "price": 37.99,
             "id": "2",
             "hasPromotion": true,
-            "oldPrice": 32.99
+            "oldPrice": 47.99
           }
         ]
       },

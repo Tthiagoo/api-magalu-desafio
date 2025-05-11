@@ -163,15 +163,15 @@
     "variants": [
       {
         "id": "19",
-        "name": "Média",
-        "description": "Tamanho médio",
+        "name": "Frango com Catupiry Tradicional",
+        "description": "Molho de tomate, frango desfiado temperado, Catupiry cremoso e um toque de orégano. Simples e irresistível.",
         "price": 37.99,
         "promo": false
       },
       {
         "id": "20",
-        "name": "Grande",
-        "description": "Tamanho grande",
+        "name": "Frango com Catupiry e Milho",
+        "description": "A clássica com um toque especial: frango desfiado, Catupiry original e grãos de milho doce para equilibrar o sabor.",
         "price": 47.99,
         "promo": true,
         "oldPrice": 55.99
