@@ -404,5 +404,75 @@
         ]
       }
     ]
+  },
+  {
+    "id": "4",
+    "productId": "2",
+    "idRestaurant": "1",
+    "name": "Niguiri Califórnia",
+    "image": "/niguiri-california.png",
+    "description": "Kani, pepino e maçã ou manga",
+    "price": 13.99,
+    "customization": [
+      {
+        "id": "201",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Gengibre", "price": 0, "id": "add_gengibre" },
+          { "label": "Wasabi", "price": 0, "id": "add_wasabi" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "productId": "2",
+    "idRestaurant": "1",
+    "name": "Niguiri Mix",
+    "image": "/niguiri-mix.png",
+    "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese...",
+    "price": 13.99,
+    "customization": [
+      {
+        "id": "202",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 3,
+        "options": [
+          { "label": "Gengibre", "price": 0, "id": "add_gengibre" },
+          { "label": "Wasabi", "price": 0, "id": "add_wasabi" },
+          { "label": "Cream cheese", "price": 2.0, "id": "add_creamcheese" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "productId": "2",
+    "idRestaurant": "1",
+    "name": "Niguiri Filadélfia",
+    "image": "/niguiri-filadelfia.png",
+    "description": "Arroz, salmão fresco, cream cheese e cebolinha",
+    "price": 13.99,
+    "customization": [
+      {
+        "id": "203",
+        "title": "Adicionais",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Gengibre", "price": 0, "id": "add_gengibre" },
+          { "label": "Wasabi", "price": 0, "id": "add_wasabi" }
+        ]
+      }
+    ]
   }
 ]
