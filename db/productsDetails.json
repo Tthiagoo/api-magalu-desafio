@@ -186,7 +186,7 @@
     "imageRestaurant": "/images-restaurants/matsuri.png",
     "nameRestaurant": "Matsuri Concept",
     "name": "Niguiri De Salmão",
-    "image": "/niguiri-salmao.png",
+    "image": "/niguiri-salmao.jpg",
     "description": "Kani, pepino e maçã ou manga",
     "price": 13.99,
     "customization": [
@@ -382,7 +382,7 @@
     "imageRestaurant": "/images-restaurants/mcdonalds.png",
     "nameRestaurant": "McDonald's",
     "name": "Big Mac Duplo McDonald's",
-    "image": "/bigmac-duplo.png",
+    "image": "/bigmac-duplo.jpg",
     "description": "Big Mac com dobro de carne",
     "price": 24.99,
     "customization": [
@@ -433,10 +433,10 @@
     "idRestaurant": "5",
     "imageRestaurant": "/images-restaurants/pizzahut.png",
     "nameRestaurant": "Pizza Hut",
-    "name": "Pizza Pepperoni Média",
+    "name": "Pizza Pepperoni Defumada",
     "image": "/pizza-pepperoni.png",
-    "description": "Tamanho médio",
-    "price": 39.99,
+    "description": "Molho de tomate rústico, mussarela cremosa e fatias generosas de pepperoni defumado",
+    "price": 29.99,
     "customization": [
       {
         "id": "501",
@@ -444,7 +444,7 @@
         "type": "single",
         "required": true,
         "options": [
-          { "label": "Média", "price": 39.99, "id": "1" },
+          { "label": "Média", "price": 29.99, "id": "1" },
           {
             "label": "Grande",
             "price": 49.99,
@@ -472,10 +472,10 @@
     "idRestaurant": "5",
     "imageRestaurant": "/images-restaurants/pizzahut.png",
     "nameRestaurant": "Pizza Hut",
-    "name": "Pizza Pepperoni Grande",
+    "name": "Pizza Pepperoni Vegetariana",
     "image": "/pizza-pepperoni.png",
-    "description": "Tamanho grande",
-    "price": 49.99,
+    "description": "Molho de tomate fresco, mussarela derretida e uma seleção de legumes grelhados: pimentões, cebola roxa, tomate-cereja, champignon e abobrinha. Finalizada com orégano e um fio de azeite extra virgem.",
+    "price": 39.99,
     "customization": [
       {
         "id": "501",
@@ -676,7 +676,7 @@
     "imageRestaurant": "/images-restaurants/subway.png",
     "nameRestaurant": "Subway",
     "name": "Sanduíche Frango Subway",
-    "image": "/sanduiche-frango.png",
+    "image": "/sanduiche-frango.jpg",
     "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Frango Grelhado",
     "price": 13.99,
     "customization": [
@@ -702,7 +702,7 @@
     "imageRestaurant": "/images-restaurants/subway.png",
     "nameRestaurant": "Subway",
     "name": "Sanduíche Frango Defumado Subway",
-    "image": "/sanduiche-frango-defumado.png",
+    "image": "/sanduiche-frango.jpg",
     "description": "Monte o seu saboroso sanduíche com pão, vegetais, queijos e molhos à sua escolha, tudo acompanhado pelo irresistível Frango Defumado com Cream Cheese.",
     "price": 13.99,
     "customization": [

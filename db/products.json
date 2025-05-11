@@ -136,20 +136,20 @@
     "id": "7",
     "idRestaurant": "5",
     "name": "Pizza Pepperoni",
-    "description": "Pizza de pepperoni da Pizza Hut",
+    "description": "A clássica e irresistível! Molho de tomate artesanal, mussarela derretida e generosas fatias de pepperoni levemente picante, assada até ficar dourada e crocante. Perfeita para quem gosta de sabor marcante e tradicional.",
     "variants": [
       {
         "id": "17",
-        "name": "Média",
-        "description": "Tamanho médio",
-        "price": 39.99,
+        "name": "Defumada",
+        "description": "Molho de tomate rústico, mussarela cremosa e fatias generosas de pepperoni defumado",
+        "price": 29.99,
         "promo": false
       },
       {
         "id": "18",
-        "name": "Grande",
-        "description": "Tamanho grande",
-        "price": 49.99,
+        "name": "Vegetariana",
+        "description": "Molho de tomate fresco, mussarela derretida e uma seleção de legumes grelhados: pimentões, cebola roxa, tomate-cereja, champignon e abobrinha. Finalizada com orégano e um fio de azeite extra virgem.",
+        "price": 39.99,
         "promo": true,
         "oldPrice": 59.99
       }
