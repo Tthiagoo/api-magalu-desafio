@@ -453,16 +453,6 @@
             "oldPrice": 59.99
           }
         ]
-      },
-      {
-        "id": "502",
-        "title": "Borda recheada?",
-        "type": "single",
-        "required": false,
-        "options": [
-          { "label": "Sim", "price": 7.0, "id": "borda_sim" },
-          { "label": "Não", "price": 0, "id": "borda_nao" }
-        ]
       }
     ]
   },
@@ -491,16 +481,6 @@
             "hasPromotion": true,
             "oldPrice": 59.99
           }
-        ]
-      },
-      {
-        "id": "502",
-        "title": "Borda recheada?",
-        "type": "single",
-        "required": false,
-        "options": [
-          { "label": "Sim", "price": 7.0, "id": "borda_sim" },
-          { "label": "Não", "price": 0, "id": "borda_nao" }
         ]
       }
     ]
