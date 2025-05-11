@@ -38,7 +38,7 @@
     "variants": [
       {
         "id": "4",
-        "name": "Califórnia",
+        "name": "Salmão",
         "description": "Kani, pepino e maçã ou manga",
         "price": 13.99,
         "oldPrice": 17.0,
@@ -46,18 +46,11 @@
       },
       {
         "id": "5",
-        "name": "Mix",
+        "name": "Atum",
         "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese...",
         "price": 13.99,
         "promo": false,
         "from": true
-      },
-      {
-        "id": "6",
-        "name": "Filadélfia",
-        "description": "Arroz, salmão fresco, cream cheese e cebolinha",
-        "price": 13.99,
-        "promo": false
       }
     ]
   },

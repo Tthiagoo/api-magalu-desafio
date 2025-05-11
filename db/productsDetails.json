@@ -185,8 +185,8 @@
     "idRestaurant": "1",
     "imageRestaurant": "/images-restaurants/matsuri.png",
     "nameRestaurant": "Matsuri Concept",
-    "name": "Niguiri Califórnia",
-    "image": "/niguiri-california.png",
+    "name": "Niguiri De Salmão",
+    "image": "/niguiri-salmao.png",
     "description": "Kani, pepino e maçã ou manga",
     "price": 13.99,
     "customization": [
@@ -196,10 +196,11 @@
         "type": "multi",
         "required": false,
         "min": 0,
-        "max": 2,
+        "max": 3,
         "options": [
           { "label": "Gengibre", "price": 0, "id": "add_gengibre" },
-          { "label": "Wasabi", "price": 0, "id": "add_wasabi" }
+          { "label": "Wasabi", "price": 0, "id": "add_wasabi" },
+          { "label": "Cream cheese", "price": 2.0, "id": "add_creamcheese" }
         ]
       }
     ]
@@ -210,9 +211,9 @@
     "idRestaurant": "1",
     "imageRestaurant": "/images-restaurants/matsuri.png",
     "nameRestaurant": "Matsuri Concept",
-    "name": "Niguiri Mix",
-    "image": "/niguiri-mix.png",
-    "description": "Escolha 3 ingredientes: shimeji, alface americana, rúcula, pepino, tomate seco, cream cheese...",
+    "name": "Niguiri De Atum",
+    "image": "/niguiri-atum.png",
+    "description": "",
     "price": 13.99,
     "customization": [
       {
@@ -230,31 +231,7 @@
       }
     ]
   },
-  {
-    "id": "6",
-    "productId": "2",
-    "idRestaurant": "1",
-    "imageRestaurant": "/images-restaurants/matsuri.png",
-    "nameRestaurant": "Matsuri Concept",
-    "name": "Niguiri Filadélfia",
-    "image": "/niguiri-filadelfia.png",
-    "description": "Arroz, salmão fresco, cream cheese e cebolinha",
-    "price": 13.99,
-    "customization": [
-      {
-        "id": "203",
-        "title": "Adicionais",
-        "type": "multi",
-        "required": false,
-        "min": 0,
-        "max": 2,
-        "options": [
-          { "label": "Gengibre", "price": 0, "id": "add_gengibre" },
-          { "label": "Wasabi", "price": 0, "id": "add_wasabi" }
-        ]
-      }
-    ]
-  },
+
   {
     "id": "13",
     "productId": "5",
@@ -262,7 +239,7 @@
     "imageRestaurant": "/images-restaurants/burgerking.png",
     "nameRestaurant": "Burger King",
     "name": "Whopper Jr. Burger King",
-    "image": "/whopper-jr.png",
+    "image": "/whopper-jr.jpg",
     "description": "Versão menor do Whopper",
     "price": 15.99,
     "customization": [
@@ -278,6 +255,33 @@
           { "label": "Queijo extra", "price": 2.0, "id": "add_queijo" },
           { "label": "Cebola crispy", "price": 2.5, "id": "add_cebola" }
         ]
+      },
+      {
+        "id": "303",
+        "title": "Molhos extras",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Ketchup", "price": 0, "id": "ketchup" },
+          { "label": "Mostarda", "price": 0, "id": "mostarda" }
+        ]
+      },
+      {
+        "id": "304",
+        "title": "Bebidas",
+        "type": "quantity",
+        "required": false,
+        "options": [
+          { "label": "Coca-Cola", "price": 5.0, "id": "coca_cola" },
+          { "label": "Fanta Laranja", "price": 5.0, "id": "fanta_laranja" },
+          {
+            "label": "Guaraná Antarctica",
+            "price": 5.0,
+            "id": "guarana_antarctica"
+          }
+        ]
       }
     ]
   },
@@ -288,7 +292,7 @@
     "imageRestaurant": "/images-restaurants/burgerking.png",
     "nameRestaurant": "Burger King",
     "name": "Whopper Duplo Burger King",
-    "image": "/whopper-duplo.png",
+    "image": "/whopper-duplo.jpg",
     "description": "Whopper com dois hambúrgueres",
     "price": 22.99,
     "customization": [
@@ -304,6 +308,18 @@
           { "label": "Queijo extra", "price": 2.0, "id": "add_queijo" },
           { "label": "Cebola crispy", "price": 2.5, "id": "add_cebola" }
         ]
+      },
+      {
+        "id": "303",
+        "title": "Molhos extras",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Ketchup", "price": 0, "id": "ketchup" },
+          { "label": "Mostarda", "price": 0, "id": "mostarda" }
+        ]
       }
     ]
   },
@@ -314,7 +330,7 @@
     "imageRestaurant": "/images-restaurants/mcdonalds.png",
     "nameRestaurant": "McDonald's",
     "name": "Big Mac McDonald's",
-    "image": "/bigmac.png",
+    "image": "/bigmac.jpg",
     "description": "Sanduíche tradicional",
     "price": 18.99,
     "customization": [
@@ -328,6 +344,33 @@
         "options": [
           { "label": "Molho especial", "price": 1.5, "id": "molho_especial" },
           { "label": "Barbecue", "price": 1.5, "id": "molho_bbq" }
+        ]
+      },
+      {
+        "id": "403",
+        "title": "Bebidas",
+        "type": "quantity",
+        "required": false,
+        "options": [
+          { "label": "Coca-Cola", "price": 5.0, "id": "coca_cola" },
+          { "label": "Fanta Laranja", "price": 5.0, "id": "fanta_laranja" },
+          {
+            "label": "Guaraná Antarctica",
+            "price": 5.0,
+            "id": "guarana_antarctica"
+          }
+        ]
+      },
+      {
+        "id": "404",
+        "title": "Acompanhamentos",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Batata frita", "price": 5.0, "id": "batata_frita" },
+          { "label": "Onion rings", "price": 6.0, "id": "onion_rings" }
         ]
       }
     ]
@@ -353,6 +396,33 @@
         "options": [
           { "label": "Molho especial", "price": 1.5, "id": "molho_especial" },
           { "label": "Barbecue", "price": 1.5, "id": "molho_bbq" }
+        ]
+      },
+      {
+        "id": "403",
+        "title": "Bebidas",
+        "type": "quantity",
+        "required": false,
+        "options": [
+          { "label": "Coca-Cola", "price": 5.0, "id": "coca_cola" },
+          { "label": "Fanta Laranja", "price": 5.0, "id": "fanta_laranja" },
+          {
+            "label": "Guaraná Antarctica",
+            "price": 5.0,
+            "id": "guarana_antarctica"
+          }
+        ]
+      },
+      {
+        "id": "404",
+        "title": "Acompanhamentos",
+        "type": "multi",
+        "required": false,
+        "min": 0,
+        "max": 2,
+        "options": [
+          { "label": "Batata frita", "price": 5.0, "id": "batata_frita" },
+          { "label": "Onion rings", "price": 6.0, "id": "onion_rings" }
         ]
       }
     ]
